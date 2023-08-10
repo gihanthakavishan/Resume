@@ -69,3 +69,9 @@ img{
 .content.active .titlediscription{
     max-height: 300px;
 }
+.content.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform 0.7s ease-in;
+}
