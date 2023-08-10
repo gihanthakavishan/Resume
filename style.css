@@ -64,6 +64,7 @@ img{
 .titlediscription{
     max-height: 0;
     overflow: hidden;
+    transition: max-height 1.6s ease;
 }
 .content.active .titlediscription{
     max-height: 300px;
