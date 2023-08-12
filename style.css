@@ -100,11 +100,8 @@ img{
 .titlediscription #Academic{
     height: 50vh;  
 }
-.titlediscription li{
-    list-style:circle;
-}
 .content.active .titlediscription{
-    max-height: 300px;
+    max-height: 400px;
     animation: fade 1s ease-in-out;
 }
 .content.active svg{
