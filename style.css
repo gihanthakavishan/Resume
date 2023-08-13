@@ -186,10 +186,7 @@ img{
 svg{
     transition: transform 0.7s ease-in;
 } */
-footer{
-    margin: 0;
-    padding-right: 0;
-}
+
 .footer{
     background-color:rgb(27, 27, 186);
     height: 18vh;
