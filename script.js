@@ -39,8 +39,8 @@ accordionItemHeaders.forEach(accordionItemHeader => {
       accordionItemBody.style.maxHeight = accordionItemBody.scrollHeight + "px";
     } else {
       accordionItemBody.style.maxHeight = 0;
-    }
-  });
+    }
+});
 });
 
 

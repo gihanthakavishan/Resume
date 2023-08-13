@@ -1,85 +1,106 @@
 *{
     padding: 0;
     margin: 0;
-    
 }
+
 body{
-    margin: auto 5px;
     background-color:ghostwhite;
 }
+
 .nav__bar{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background:deepskyblue;
+    background:rgb(7, 159, 210);
     height: 10vh;
     width: 100%; 
     position: fixed; 
-    
-    
+   
 }
+
 .nav__btn{
     font-family: Georgia;
-    padding-top: 20px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-top: 3vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
     font-size: 1.2rem;
-    font-weight: 200px;
     
 }
+
 .nav__btn:hover{
- background:springgreen;
- 
- 
+    background:springgreen; 
+     
 }
+
 a{
-    text-decoration: none;
-    
+    text-decoration: none; 
+    color: black;
 }
+a:hover{
+    color: red;
+}
+#see{
+    font-family: georgia;
+    font-size: medium;
+    font-weight: 1.4rem;
+    border:1px solid black;
+    border-radius:10%;
+    padding: 4px;
+    color: black;
+    background-color: rgb(5, 215, 145);
+}
+#see:hover{
+    color: red;
+}
+
 .head{
     text-align: center;
     justify-content: space-evenly;
     padding-top: 5%;
     text-decoration: none;
     }
+
 .head-myimg{
-    
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    width: 80vw;
+    width: 70vw;
     height: 60vh;
-    background-color: rgb(11, 114, 118);
+    background-color: rgb(9, 191, 197);
     margin-bottom: 10vh;
-    display:grid;
-    grid-template-columns: auto auto;
-    margin-left: 20vh;
-    margin-top: 10vh;
-    
+    display: flex;
+    margin-left: 15vw;
+    margin-top: 10vh; 
+    border-radius:1.5%;
+    border: 1.3px solid black;
 }
+
 img{
     
     height: 50%;
-    border-radius: 50%;
+    border-radius: 30%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     height: 35vh;
     width: 15vw;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(145, 10, 163);
     margin-top:8vh;
     margin-left: 8vh;
 }
+
 .myimg{
-    
     text-align: left;
+    margin-left: 5vw;
 }
-.description{
-    background-color:lightblue;
-     
+
+.dispcription{
+    margin-top:16vh;
     justify-content: center;
+    margin-left: 10vw;
 }
-.description h2{
-    align-items: center;
+
+.discription h2{
     margin-top: 10vh;
     margin-top: 5vh;  
 }
+
 .contentclass{
      text-align: center;
      line-height:12vh;
@@ -87,10 +108,11 @@ img{
      padding-right: 10%;
      padding-bottom: 10%;  
 }
+
 .content{
     margin-bottom: 15px;
- 
 }
+
 .title{
     border:1px solid black;
     border-radius: 15px;
@@ -100,17 +122,23 @@ img{
     cursor: pointer;
     padding-left: 20px;
 }
+
 .title h3{
     font-size: 2rem;
     color: forestgreen;
     font-family:Georgia;
 }
+.title h3:hover{
+    color:greenyellow;.
+}
+
 .titlediscription{
     max-height: 0;
     overflow: hidden;
     transition: max-height 1.6s ease;
     padding-top: 1.4%;
 }
+
 .titlediscription ul{
     line-height: 8vh;
     text-align:left;
@@ -119,47 +147,51 @@ img{
     border-radius: 15px;
     font-family: georgia;
     padding-left: 5px;
-    background-color: aqua;
-    
+    background-color: aqua;  
 } 
+
 .location i{
     width: 3vw;
     height: 6vh;
 }
+
 .social li{
    display: inline;
    margin-left: 18vw;
    padding-top: 10vh;
-   cursor: pointer;
-  
-   
+   cursor: pointer;  
 }
+
 .social i{
     height:20vh ;
     color: black;
     margin-top: 6vh;
 }
-.social i:hover{
-    color:blue;
-}
 
+.social i:hover{
+    color:rgb(18, 39, 227);
+}
 
 .content.active .titlediscription{
     max-height: 400px;
     animation: fade 1s ease-in-out;
 }
-.content.active svg{
+
+/* .content.active svg{
     transform: rotate(180deg);
 }
-svg::after{
-    transition: transform 0.7s ease-in;
+.content.active .title svg{
+    transform: rotate(180deg);
 }
+svg{
+    transition: transform 0.7s ease-in;
+} */
+
 .footer{
     background-color:rgb(27, 27, 186);
     height: 18vh;
     text-align: center;
     padding-top: 5vh;
-   
 }
 
 @keyframes fade{
